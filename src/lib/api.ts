@@ -1,8 +1,12 @@
-export const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000/api'
+// En prod (Railway), utiliser des chemins relatifs pour que nginx proxy vers le backend.
+// En dev local, VITE_API_URL pointe vers http://127.0.0.1:8000/api
+export const API_URL = import.meta.env.VITE_API_URL || '/api'
 export const USE_BACKEND = import.meta.env.VITE_USE_BACKEND === 'true'
 
-const API_BASE = API_URL.replace(/\/api\/?$/, '')
-export const MEDIA_BASE_URL = `${API_BASE}/media/`
+// Pour les médias : si chemin relatif (/api), media est à /media/
+// Si URL absolue (dev), on dérive la base depuis l'URL
+const API_BASE = API_URL.startsWith('/') ? '' : API_URL.replace(/\/api\/?$/, '')
+export const MEDIA_BASE_URL = API_URL.startsWith('/') ? '/media/' : `${API_BASE}/media/`
 
 export function toMediaUrl(path?: string | null, fallback = '/images/team/placeholder.jpg') {
   if (!path) return fallback
