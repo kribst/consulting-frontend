@@ -18,8 +18,8 @@ RUN npm run build
 
 FROM nginx:1.27-alpine
 
-ARG API_UPSTREAM=http://backend.railway.internal:8000
-ARG MEDIA_UPSTREAM=http://backend.railway.internal:8000
+ARG API_UPSTREAM=http://backend-consulting.railway.internal
+ARG MEDIA_UPSTREAM=http://backend-consulting.railway.internal
 ENV API_UPSTREAM=${API_UPSTREAM}
 ENV MEDIA_UPSTREAM=${MEDIA_UPSTREAM}
 
