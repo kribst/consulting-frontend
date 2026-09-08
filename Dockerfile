@@ -14,6 +14,7 @@ RUN npm ci || npm install
 COPY . .
 
 RUN npm run build
+RUN echo "FRONTEND_BUILD_OK"
 
 
 FROM nginx:1.27-alpine
