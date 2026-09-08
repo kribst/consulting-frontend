@@ -1,0 +1,88 @@
+import type { ContactMessage } from '../types'
+
+export const mockMessages: ContactMessage[] = [
+  {
+    id: 1,
+    nom: 'Ahmed El Amrani',
+    email: 'ahmed@example.com',
+    telephone: '+212600000000',
+    entreprise: 'Société Exemple',
+    service_id: 3,
+    service: 'Études',
+    sujet: 'Demande d’étude de faisabilité',
+    message:
+      'Bonjour, nous souhaitons être accompagnés dans une étude de faisabilité pour un nouveau projet commercial à Yaoundé.',
+    statut: 'nouveau',
+    created_at: '2026-08-04T10:30:00.000Z',
+  },
+  {
+    id: 2,
+    nom: 'Sofia Bennani',
+    email: 'sofia.bennani@example.com',
+    telephone: '+212611111111',
+    entreprise: 'Bennani Consulting',
+    service_id: 4,
+    service: 'Formations',
+    sujet: 'Formation intra-entreprise',
+    message:
+      'Nous cherchons un programme de formation sur mesure pour nos managers intermédiaires.',
+    statut: 'en_cours',
+    created_at: '2026-08-03T14:15:00.000Z',
+  },
+  {
+    id: 3,
+    nom: 'Yassine Alaoui',
+    email: 'yassine.alaoui@example.com',
+    telephone: '+212622222222',
+    entreprise: 'Alaoui Services',
+    service_id: 1,
+    service: 'Conseil et gestion',
+    sujet: 'Diagnostic organisationnel',
+    message:
+      'Nous avons besoin d’un diagnostic de nos processus internes et d’un appui en contrôle de gestion.',
+    statut: 'traite',
+    created_at: '2026-08-02T09:40:00.000Z',
+  },
+  {
+    id: 4,
+    nom: 'Nadia El Fassi',
+    email: 'nadia.fassi@example.com',
+    telephone: '+212633333333',
+    entreprise: 'Projet indépendant',
+    service_id: 2,
+    service: 'Accompagnement',
+    sujet: 'Accompagnement création d’activité',
+    message:
+      'Je suis porteuse de projet et je souhaite structurer mon business model avant le lancement.',
+    statut: 'nouveau',
+    created_at: '2026-08-01T16:05:00.000Z',
+  },
+  {
+    id: 5,
+    nom: 'Omar Rami',
+    email: 'omar.rami@example.com',
+    telephone: '+212644444444',
+    entreprise: 'Rami Events',
+    service_id: 5,
+    service: 'Événementiel',
+    sujet: 'Organisation séminaire professionnel',
+    message:
+      'Nous préparons un séminaire professionnel et cherchons un accompagnement dans la coordination.',
+    statut: 'archive',
+    created_at: '2026-07-29T11:20:00.000Z',
+  },
+  {
+    id: 6,
+    nom: 'Imane Moutawakil',
+    email: 'imane.m@example.com',
+    telephone: '+212655555555',
+    entreprise: 'Moutawakil Développement',
+    service_id: 6,
+    service: 'Gestion et marketing',
+    sujet: 'Appui développement commercial',
+    message:
+      'Nous souhaitons clarifier notre offre et améliorer notre démarche commerciale pour le prochain trimestre.',
+    statut: 'en_cours',
+    created_at: '2026-07-28T13:10:00.000Z',
+  },
+]
