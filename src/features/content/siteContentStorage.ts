@@ -65,6 +65,7 @@ export function mergeSiteContent(partial?: Partial<SiteContent> | null): SiteCon
     company: { ...fallback.company, ...(normalizedPartial.company ?? {}) },
     seo: { ...fallback.seo, ...(normalizedPartial.seo ?? {}) },
     services: Array.isArray(normalizedPartial.services) && normalizedPartial.services.length > 0 ? normalizedPartial.services : fallback.services,
+    actualites: Array.isArray(normalizedPartial.actualites) && normalizedPartial.actualites.length > 0 ? normalizedPartial.actualites : fallback.actualites,
     statistics: Array.isArray(normalizedPartial.statistics) && normalizedPartial.statistics.length > 0 ? normalizedPartial.statistics : fallback.statistics,
     testimonials: Array.isArray(normalizedPartial.testimonials) && normalizedPartial.testimonials.length > 0 ? normalizedPartial.testimonials : fallback.testimonials,
     processSteps: Array.isArray(normalizedPartial.processSteps) && normalizedPartial.processSteps.length > 0 ? normalizedPartial.processSteps : fallback.processSteps,

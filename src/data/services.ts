@@ -4,11 +4,11 @@ import type { Service } from '../types'
 export const services: Service[] = [
   {
     id: 1,
-    title: 'Conseil juridique et Fiscal',
+    title: 'Conseil juridique.',
     slug: 'conseil-juridique-et-fiscal',
     icon: 'scale',
     summary:
-      'Un accompagnement juridique et fiscal sur mesure pour protéger vos intérêts et optimiser votre situation fiscale.',
+      'Un accompagnement juridique pour vos optimiser vos solutions.',
     description:
       'FALKAOH CONSULTING accompagne les personnes physiques et morales dans les procédures de défense de leurs intérêts juridiques et fiscaux, en offrant un soutien expert auprès des autorités compétentes et des organismes douaniers.',
     image:'/images/juridique-fiscal.jpg',
@@ -57,11 +57,11 @@ export const services: Service[] = [
   },
   {
     id: 2,
-    title: 'Gouvernance & Droits Humains',
-    slug: 'Gouvernance-&-Droits-Humains',
+    title: 'Gouvernance, Démocratie, Droit de l’Homme  ',
+    slug: 'Gouvernance, Démocratie, Droit de l’Homme  ',
     icon: 'landmark',
     summary:
-      'Un accompagnement des pouvoirs publics, du secteur privé et des OSC pour promouvoir une bonne gouvernance et le respect des droits humains.',
+      'Un accompagnement des pouvoirs publics, du secteur privé, des OSC et partenaires au développement pour promouvoir une bonne gouvernance et le respect des droits humains.',
     description:
       'FALKAOH CONSULTING accompagne les pouvoirs publics, le secteur privé et les organisations de la société civile dans la promotion et la vulgarisation de la bonne gouvernance, du respect des droits humains et du renforcement de la démocratie.',
     image:'/images/droit.jpg',
@@ -273,7 +273,7 @@ export const services: Service[] = [
     slug: 'cooperation-developpement',
     icon: 'handshake',
     summary:
-      'Un accompagnement des pouvoirs publics, du secteur privé et des OSC pour mobiliser les partenaires techniques et financiers du développement.',
+      'Un accompagnement des pouvoirs publics, du secteur privé, des OSC, pour mobiliser les partenaires techniques et financiers.',
     description:
       'FALKAOH CONSULTING accompagne les pouvoirs publics, le secteur privé et les organisations de la société civile dans la mobilisation des partenaires techniques et financiers internationaux pour la réalisation des projets de développement.',
     image:'/images/cooperation.jpg',
@@ -326,7 +326,7 @@ export const services: Service[] = [
     slug: 'commerce-international',
     icon: 'store',
     summary:
-      'Un accompagnement dans les procédures de dédouanement en zone CEMAC, le conseil en logistique et le transport.',
+  'Elaboration des plaidoyers, communications des articles scientifiques, vulgarisation des travaux de recherches, organisation d’ateliers, séminaires, colloques, conférences et cafés de réflexion dans nos domaines d’expertise.',
     description:
       'FALKAOH CONSULTING accompagne les acteurs du commerce international dans les procédures de dédouanement en zone CEMAC, ainsi que dans les stratégies de logistique et de transport pour optimiser les flux commerciaux transfrontaliers.',
     image: '/images/commerce.jpg',
@@ -375,7 +375,7 @@ export const services: Service[] = [
   },
   {
     id: 8,
-    title: 'Études & Conseil Architectural',
+    title: 'Etude, Conseil et Accompagnement en Architecture et Génie civil ',
     slug: 'etude-conseil-architecture',
     icon: 'building-2',
     summary:
@@ -534,11 +534,11 @@ export const services: Service[] = [
   },
   {
     id: 11,
-    title: 'Renforcement des capacités',
+    title: 'Etudes et Recherches ',
     slug: 'renforcement-capacites',
     icon: 'users-round',
     summary:
-      'L’organisation d’ateliers, séminaires, colloques, conférences et cafés de réflexion dans nos domaines d’expertise.',
+      'Elaboration des plaidoyers, communications des articles scientifiques, vulgarisation des travaux de recherches, organisation d’ateliers, séminaires, colloques, conférences et cafés de réflexion dans nos domaines d’expertise.',
     description:
       'FALKAOH CONSULTING organise des ateliers, séminaires, colloques, conférences et cafés de réflexion animés par des experts, en lien avec ses domaines d’expertise, pour renforcer les capacités des participants et favoriser le partage de connaissances.',
     image: '/images/renforcement.jpg',
@@ -591,7 +591,7 @@ export const services: Service[] = [
     slug: 'realisation-projets-etudes-faisabilite',
     icon: 'folder-kanban',
     summary:
-      'Le montage, la mise en œuvre et le suivi-évaluation des projets et études de faisabilité, du concept à la réalisation.',
+      'Etude de faisabilité, Maturation des projets, Mise en œuvre, Suivi Evaluation, Pérennité ',
     description:
       'FALKAOH CONSULTING prend en charge le montage, la mise en œuvre et le suivi-évaluation des projets de développement et des études de faisabilité, en mobilisant une méthodologie rigoureuse et une coordination efficace entre les partenaires.',
     image: '/images/realisation.jpg',

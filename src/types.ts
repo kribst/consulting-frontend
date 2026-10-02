@@ -18,6 +18,23 @@ export type Service = {
   relatedSlugs: ServiceSlug[]
 }
 
+export type ActualiteSlug = string
+
+export type Actualite = {
+  id: number
+  slug: ActualiteSlug
+  title: string
+  category: string
+  /** Format AAAA-MM-JJ, conservée séparément de l'heure. */
+  datePublication: string
+  /** Format HH:MM (24h), conservée séparément de la date. */
+  heurePublication: string
+  image: string
+  imageAlt: string
+  summary: string
+  content: string[]
+}
+
 export type Statistic = {
   label: string
   value: string
@@ -86,6 +103,7 @@ export type SeoSettings = {
 export type SiteContent = {
   company: CompanyInfo
   services: Service[]
+  actualites: Actualite[]
   statistics: Statistic[]
   testimonials: Testimonial[]
   processSteps: ProcessStep[]

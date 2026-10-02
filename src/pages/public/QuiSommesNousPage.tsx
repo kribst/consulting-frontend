@@ -36,10 +36,10 @@ export function QuiSommesNousPage() {
           <Reveal className="max-w-4xl text-white">
             <p className="text-sm font-extrabold uppercase tracking-[0.22em] text-gold">Qui sommes-nous</p>
             <h1 className="mt-4 text-4xl font-black tracking-tight text-white/85 sm:text-5xl drop-shadow-[0_4px_12px_rgba(0,0,0,0.5)]">
-              UN CABINET DE CONSEIL ORIENTÉ CLARTÉ, ACCOMPAGNEMENT ET PERFORMANCE
+              UN CABINET DE CONSEIL, D’ETUDE ET DE RENFORCEMNET DES CAPACITES
             </h1>
             <p className="mt-6 text-lg leading-8 text-white/85 drop-shadow-[0_4px_12px_rgba(0,0,0,0.5)]">
-              {company.name} accompagne les organisations camerounaises dans leurs besoins de conseil, structuration, études, formations et appui professionnel. Notre rôle est de transformer un besoin complexe en démarche claire, utile et actionnable.
+              FALKAOH CONSULTING accompagne les partenaires dans leurs besoins de conseil, d’études et de formations. 
             </p>
           </Reveal>
         </div>
@@ -55,10 +55,9 @@ export function QuiSommesNousPage() {
               L’EXPERTISE AU SERVICE DE VOS PROJETS
             </h1>
             <p className="mt-6 text-lg leading-8 text-muted">
-              {company.name} est une filiale du <a href="https://falkaohafricagroup.com/" target="_blank" rel="noreferrer" className="font-bold text-gold hover:text-deep-blue">GROUP FALKAOH</a>, ayant pour Directeur général Monsieur <strong>NGWE MAYO EMMANUEL</strong>.
-              <br />
-              <br />
-              FALKCO est un cabinet qui intervient dans la réalisation d'études, d'enquêtes, de diagnostics, de formations, ainsi que dans la planification stratégique et opérationnelle. Le cabinet accompagne les organisations publiques, privées et de la société civile dans leurs projets, leurs transformations et leurs enjeux de développement.
+              {company.name} est une filiale du <a href="https://falkaohafricagroup.com/" target="_blank" rel="noreferrer" className="font-bold text-gold hover:text-deep-blue">GROUP FALKAOH</a>.
+              <br />          
+             Au vue des défis de développement qui interpellent l’Afrique en général et le Cameroun plus singulièrement, le Groupe Falkaoh a décidé de mettre en place le Cabinet voire une « boite à outils » à l’effet de participer au processus de développement du continent.
             </p>
             <div className="mt-8">
               <ButtonLink to="/services" size="lg" className="cta-quote-button">Découvrir nos services</ButtonLink>
@@ -70,34 +69,58 @@ export function QuiSommesNousPage() {
         </div>
       </section>
 
-      <section className="section-padding bg-surface">
-        <div className="container-page grid gap-6 md:grid-cols-3">
-          <Reveal>
-          <Card className="p-7 hover:border-gold/40 hover:shadow-soft">
-            <h2 className="text-xl font-bold text-navy">Mission</h2>
-            <p className="mt-3 text-sm leading-7 text-muted">
-             Accompagner les pouvoirs publics, le secteur privé, les OSC et les particuliers dans l’atteinte de leurs objectifs de développement en leur apportant des solutions adaptées, efficientes et efficaces.
-            </p>
-          </Card>
-          </Reveal>
-          <Reveal delay={80}>
-          <Card className="p-7 hover:border-gold/40 hover:shadow-soft">
-            <h2 className="text-xl font-bold text-navy">Vision</h2>
-            <p className="mt-3 text-sm leading-7 text-muted">
-              Devenir un partenaire de référence en afrique, en matière d’Etudes, de Conseils et de Formations. pour les organisations qui cherchent un conseil sérieux, clair et orienté performance.
-            </p>
-          </Card>
-          </Reveal>
-          <Reveal delay={160}>
-          <Card className="p-7 hover:border-gold/40 hover:shadow-soft">
-            <h2 className="text-xl font-bold text-navy">Pourquoi FALKCO ?</h2>
-            <p className="mt-3 text-sm leading-7 text-muted">
-              Beaucoup de projets échouent par manque de structuration, d’analyse ou d’accompagnement. FALKAOH CONSULTING apporte méthode, recul et appui concret.
-            </p>
-          </Card>
-          </Reveal>
-        </div>
-      </section>
+<section className="section-padding bg-surface">
+  <div className="container-page grid gap-6 md:grid-cols-12">
+    <Reveal className="md:col-span-6">
+      <Card className="p-7 hover:border-gold/40 hover:shadow-soft">
+        <h2 className="text-xl font-bold text-navy">Mission</h2>
+        <p className="mt-3 text-sm leading-7 text-muted">
+          Accompagner les pouvoirs publics, le secteur privé, les OSC et les particuliers dans l'atteinte de leurs objectifs de développement en leur apportant des solutions adaptées, efficientes et efficaces.
+        </p>
+      </Card>
+    </Reveal>
+    <Reveal delay={80} className="md:col-span-6">
+      <Card className="p-7 hover:border-gold/40 hover:shadow-soft">
+        <h2 className="text-xl font-bold text-navy">Vision</h2>
+        <p className="mt-3 text-sm leading-7 text-muted">
+          Notre vision est de devenir une référence africaine en matière d'études, conseils et formations.
+          <br />
+          <br />
+        </p>
+      </Card>
+    </Reveal>
+  </div>
+
+  <div className="container-page mt-6 grid gap-6">
+    <Reveal>
+      <Card className="p-7 hover:border-gold/40 hover:shadow-soft">
+        <h2 className="text-xl font-bold text-navy">Pourquoi FALKCO</h2>
+        <p className="mt-3 text-sm leading-7 text-muted">
+          Nos services s'appuient sur :
+        </p>
+
+        <ul className="ml-12 mt-4 list-disc space-y-3 pl-4 text-sm leading-7 text-muted marker:text-gold md:ml-16">
+          <li>
+            <strong>Expertise spécialisée :</strong> Une approche holistique adaptée au contexte
+          </li>
+          <li>
+            <strong>Accompagnement personnalisé :</strong> Des solutions durables et spécifiques aux besoins des partenaires
+          </li>
+          <li>
+            <strong>Méthode d'intervention :</strong> approche holistique, rigoureuse et stratégique
+          </li>
+          <li>
+            <strong>Réseau et partenariats :</strong> capacité d'intervention locale et internationale
+          </li>
+          <li>
+            <strong>Innovation et transformation digitale :</strong> des solutions modernes pour renforcer votre compétitivité
+          </li>
+        </ul>
+      </Card>
+    </Reveal>
+  </div>
+</section>
+
 
       <section className="section-padding bg-white">
         <div className="container-page grid gap-10 lg:grid-cols-[0.8fr_1.2fr]">
@@ -130,11 +153,28 @@ export function QuiSommesNousPage() {
       <section className="section-padding bg-navy text-white">
         <div className="container-page grid gap-10 lg:grid-cols-2 lg:items-center">
           <div>
-            <p className="text-sm font-bold uppercase tracking-[0.22em] text-gold">Qui sont nos clients cibles ?</p>
-            <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">UN ACCOMPAGNEMENT ADAPTÉ <br />AU TERRAIN ÉCONOMIQUE</h2>
+            <p className="text-sm font-bold uppercase tracking-[0.22em] text-gold">QUI SONT NOS PARTENAIRES CIBLES ?</p>
+            <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">UN ACCOMPAGNEMENT ADAPTÉ </h2>
           </div>
           <p className="mt-4 text-white/75">
-            FALKAOH CONSULTING accompagne les entreprises, PME, coopératives, GIC, ONG, associations et particuliers dans la structuration de leurs activités, l’analyse de faisabilité, le développement des compétences, la gestion financière et l’amélioration de leurs performances.
+            FALKAOH CONSULTING accompagne :
+            <ul className="ml-12 mt-4 list-disc space-y-3 pl-4 text-sm leading-7 text-muted marker:text-white md:ml-16">
+          <li className="mt-4 text-white/75">
+            Les pouvoirs publics.
+          </li>
+          <li className="mt-4 text-white/75">
+            Le secteur privé (PMA, Coopératives, GIC, etc).
+          </li>
+          <li className="mt-4 text-white/75">
+            Les Organisations de la Société Civile (Association, ONG, Réseau, Organisations internationales, etc).
+          </li>
+          <li className="mt-4 text-white/75">
+            Les partenaires au développement
+          </li>
+          <li className="mt-4 text-white/75">
+            Les particuliers.
+          </li>
+        </ul>
           </p>
         </div>
       </section>

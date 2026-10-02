@@ -28,10 +28,10 @@ export function ServicesPage() {
           <Reveal className="max-w-4xl text-white">
             <p className="text-sm font-extrabold uppercase tracking-[0.22em] text-gold">Nos services</p>
             <h1 className="mt-4 text-4xl font-black tracking-tight text-white/85 sm:text-5xl drop-shadow-[0_4px_12px_rgba(0,0,0,0.5)]">
-              UNE OFFRE CLAIRE POUR ACCOMPAGNER VOS PROJETS ET VOTRE PERFORMANCE
+              UNE OFFRE CLAIRE POUR ACCOMPAGNER VOS PROJETS
             </h1>
             <p className="mt-6 text-lg leading-8 text-white/85 drop-shadow-[0_4px_12px_rgba(0,0,0,0.5)]">
-              FALKAOH CONSULTING intervient sur plusieurs services complémentaires. Chaque mission peut être adaptée selon votre contexte, votre niveau de maturité et vos priorités.
+              FALKAOH CONSULTING intervient dans plusieurs domaines d’expertise en cohérence avec les objectifs de développement et les exigences y afférentes tant sur le plan national qu’international
             </p>
           </Reveal>
         </div>

@@ -46,6 +46,7 @@ export const company = {
 export const navigationLinks = [
   { label: 'Accueil', href: '/' },
   { label: 'Services', href: '/services' },
+  { label: 'Actualité', href: '/actualite' },
   { label: 'À propos', href: '/a-propos' },
   { label: 'Contact', href: '/contact' },
 ]

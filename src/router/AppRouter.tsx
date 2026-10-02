@@ -10,6 +10,8 @@ import { AdminNewsletterPage } from '../pages/admin/AdminNewsletterPage'
 import { AdminTeamPage } from '../pages/admin/AdminTeamPage'
 import { AdminTestimonialsPage } from '../pages/admin/AdminTestimonialsPage'
 import { AccueilPage } from '../pages/public/AccueilPage'
+import { ActualiteDetailsPage } from '../pages/public/ActualiteDetailsPage'
+import { ActualitePage } from '../pages/public/ActualitePage'
 import { ContactPage } from '../pages/public/ContactPage'
 import { NotFoundPage } from '../pages/public/NotFoundPage'
 import { QuiSommesNousPage } from '../pages/public/QuiSommesNousPage'
@@ -22,6 +24,8 @@ export function AppRouter() {
       <Route element={<PublicLayout />}>
         <Route path="/" element={<AccueilPage />} />
         <Route path="/services" element={<ServicesPage />} />
+        <Route path="/actualite" element={<ActualitePage />} />
+        <Route path="/actualite/:slug" element={<ActualiteDetailsPage />} />
         <Route path="/a-propos" element={<QuiSommesNousPage />} />
         <Route path="/services/:slug" element={<ServiceDetailsPage />} />
         <Route path="/contact" element={<ContactPage />} />

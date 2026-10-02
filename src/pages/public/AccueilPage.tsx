@@ -89,7 +89,7 @@ export function AccueilPage() {
             <SectionHeader
               eyebrow="Présentation"
               title="MÉTHODOLOGIE DE TRAVAIL"
-              description="Notre démarche repose sur une approche structurée et itérative, de l'analyse initiale à l'évaluation finale, en passant par la co-construction des solutions avec vous."
+              description="Notre démarche repose sur une approche structurée, participative et inclusive basée sur les droits"
             />
             <div className="mt-8">
               <ButtonLink to="/a-propos" variant="secondary" className="cta-quote-button">
@@ -100,11 +100,11 @@ export function AccueilPage() {
           <div className="grid gap-4 sm:grid-cols-2">
             {[
               'Diagnostic',
-              'Proposition',
+              'Analyse',
+              'Recommandations',
               'Mise en œuvre',
-              'Suivi',
-              'Pérennité',
-              'Evaluation',
+              'Suivi Evaluation',
+              'Pérennisation',
             ].map((value, index) => (
               <Reveal key={value} delay={index * 55}>
                 <div className="flex items-center gap-3 rounded-2xl border border-border bg-surface p-4 transition hover:-translate-y-1 hover:border-gold/50 hover:bg-white hover:shadow-card">
@@ -121,8 +121,8 @@ export function AccueilPage() {
         <div className="container-page">
           <SectionHeader
             eyebrow="Services"
-            title="DES SERVICES ADAPTÉS À VOS ENJEUX"
-            description="FALKCO couvre les besoins essentiels d’une organisation : conseil en gestion, accompagnement, études, formations, événementiel et missions personnalisées."
+            title="SERVICES ADAPTÉS À VOS PROJETS"
+            description="FALKCO couvre les besoins essentiels de ses partenaires dans les domaines ci-après :"
             align="center"
           />
           <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
@@ -144,7 +144,7 @@ export function AccueilPage() {
           <div className="grid gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:items-end">
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.22em] text-gold">Confiance & expertise</p>
-              <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">UNE DÉMARCHE SÉRIEUSE, ORIENTÉE PERFORMANCE</h2>
+              <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">UNE DÉMARCHE RIGOUREUSE, SPÉCIFIQUE ET ADAPTÉE.</h2>
               <p className="mt-4 text-white/70">Les chiffres ci-dessous sont des exemples éditables pour présenter la crédibilité de FALKAOH CONSULTING.</p>
             </div>
             <div className="grid auto-rows-fr gap-4 sm:grid-cols-2 lg:grid-cols-4">

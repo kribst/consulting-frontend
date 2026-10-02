@@ -1,4 +1,5 @@
 import { company } from '../../data/company'
+import { actualites } from '../../data/actualites'
 import { processSteps } from '../../data/processSteps'
 import { services } from '../../data/services'
 import { statistics } from '../../data/statistics'
@@ -22,6 +23,7 @@ export const defaultSeo: SeoSettings = {
 export const defaultSiteContent: SiteContent = {
   company,
   services,
+  actualites,
   statistics,
   testimonials,
   processSteps,
